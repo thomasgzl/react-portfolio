@@ -1,5 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
+import Btn from './components/btn/btn.jsx';
+import AboutPage from './about/about';
+import Avatar from './components/avatar/avatar';
+import ProjectsPage from './projects/projects';
+
 
 function App() {
   return (
@@ -17,6 +22,10 @@ function App() {
         >
           Learn React
         </a>
+        <Btn />
+        <AboutPage />
+        <Avatar />
+        <ProjectsPage />
       </header>
     </div>
   );
