@@ -1,5 +1,5 @@
 import { projects } from '../const';
-
+import React from 'react'
 
 const projectsList = projects.map((project) => (
   <li key={project.id}>

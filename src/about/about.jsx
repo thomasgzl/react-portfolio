@@ -1,5 +1,5 @@
 import { user } from '../const';
-
+import React from 'react'
 
 function AboutPage() {
     return (
