@@ -1,4 +1,4 @@
-import './avatar.css';
+import './avatar.scss';
 import { user } from '../../const';
 
 function Avatar() {
